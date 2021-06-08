@@ -1,3 +1,4 @@
+@import "../../utils/colors";
 
 .disk {
   margin-top: 20px;
@@ -44,5 +45,18 @@
 
   &__create {
     align-self: flex-end;
+  }
+}
+
+.upload {
+  &__input {
+    display: none;
+  }
+
+  &__label {
+    border: 2px dashed @color;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-left: 10px;
   }
 }
