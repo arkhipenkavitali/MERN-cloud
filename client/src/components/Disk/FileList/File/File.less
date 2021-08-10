@@ -47,3 +47,25 @@
     display: block;
   }
 }
+
+.file-plate {
+  height: 150px;
+  width: 150px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  &__img {
+    height: 100px;
+    width: 100px;
+  }
+
+  &__btns {
+    display: none;
+  }
+
+  &:hover &__btns {
+    display: block;
+  }
+}
